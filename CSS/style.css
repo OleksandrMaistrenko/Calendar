@@ -1,0 +1,87 @@
+.conteiner {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.info {
+  color: blue;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.info:hover {
+  color: darkgreen;
+}
+th {
+  font-size: 20px;
+  color: white;
+}
+th:nth-child(-n + 5) {
+  background-color: orange;
+}
+th:nth-child(6) {
+  background-color: red;
+}
+th:last-child {
+  background-color: red;
+}
+
+td,
+th {
+  padding: 30px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.info,
+.nav {
+  text-align: center;
+}
+
+#calendar a {
+  color: blue;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+#calendar a:hover {
+  color: red;
+}
+.winter {
+  background-image: url(/Images/winter.JPG);
+  background-size: cover;
+}
+
+.spring {
+  background-image: url(/Images/spring.JPG);
+  background-size: cover;
+}
+
+.summer {
+  background-image: url(/Images/summer.JPG);
+  background-size: cover;
+}
+.autumn {
+  background-image: url(/Images/autumn.JPG);
+  background-size: cover;
+}
+
+td {
+  font-size: 30px;
+  font-weight: 700;
+  color: red;
+}
+
+td:nth-child(-n + 5) {
+  color: black;
+}
+
+.today {
+  background-color: yellow;
+}
+#next-month {
+  color: grey;
+}
+
+#prev-month {
+  color: grey;
+}
